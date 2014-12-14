@@ -34,7 +34,9 @@ body {
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
-	padding: 0 0 10px 0;
+	line-height: 44px;
+	margin-top: 0;
+	margin-bottom: 30px;
 }
 
 #todoapp input[type="text"] {
@@ -64,17 +66,14 @@ body {
 	margin: 10px 0;
 	padding: 0;
 	list-style: none;
+	border-top: 1px solid #cccccc;
 }
 
 #todo-list li {
-	padding: 18px 20px 18px 0;
+	padding: 11px 0;
 	position: relative;
 	font-size: 24px;
 	border-bottom: 1px solid #cccccc;
-}
-
-#todo-list li:last-child {
-	border-bottom: none;
 }
 
 #todo-list li.done label {
@@ -85,7 +84,7 @@ body {
 #todo-list .destroy {
 	position: absolute;
 	right: 5px;
-	top: 20px;
+	top: 12px;
 	display: none;
 	cursor: pointer;
 	width: 20px;
@@ -128,6 +127,10 @@ body {
 
 #todo-list li .edit {
 	display: none;
+}
+
+#todoapp section {
+	padding: 30px 0 10px;
 }
 
 #todoapp footer {
@@ -188,7 +191,7 @@ body {
 }
 
 #instructions {
-	margin: 10px auto;
+	margin: 0 auto;
 	color: #777777;
 	text-shadow: rgba(255, 255, 255, 0.8) 0 1px 0;
 	text-align: center;
